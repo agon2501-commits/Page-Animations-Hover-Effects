@@ -1,0 +1,18 @@
+.hover-box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  color: black;
+  border: 1px solid black;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Indicate it's interactive */
+  transition: background-color 0.3s ease,
+    color 0.3s ease,
+    width 0.3s ease,
+    height 0.3s ease,
+    opacity 0.3s ease,
+    border 0.3s ease; /* Smooth transitions for CSS-based effects */
+}
